@@ -1,13 +1,7 @@
 body {
-    font-family: "Arial", sans-serif;
     background: linear-gradient(
         135deg,
         #f4fb8f,
         #ff6b6b
     );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
