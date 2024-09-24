@@ -1,7 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: "Arial", sans-serif;
     background: linear-gradient(
         135deg,
         #f4fb8f,
         #ff6b6b
     );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.coin-container {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.9
+    );
+    border-radius: 20px;
+    box-shadow: 0 10px 20px
+        rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    text-align: center;
+    animation: fadeIn 1s ease;
+    width: 80%;
+    max-width: 500px;
+    perspective: 1000px;
